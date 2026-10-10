@@ -9,3 +9,4 @@ public class LuminousClient implements ClientModInitializer {
         System.out.println("Luminous Client initialized!");
     }
 }
+
