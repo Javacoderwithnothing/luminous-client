@@ -7,13 +7,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ExampleMod implements ModInitializer {
-    public static final String MOD_ID = "nova";
+    public static final String MOD_ID = "luminous client";
     public static final Logger LOGGER =
             LoggerFactory.getLogger(MOD_ID);
 
     @Override
     public void onInitialize() {
-        LOGGER.info("NOVA Client has started!");
+        LOGGER.info("luminous Client has started!");
     }
 
     public static Identifier id(String path) {
